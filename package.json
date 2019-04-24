@@ -1,0 +1,22 @@
+{
+  "name": "test-semantic-release",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-dabrowski/test-semantic-release.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "barti",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/b-dabrowski/test-semantic-release/issues"
+  },
+  "homepage": "https://github.com/b-dabrowski/test-semantic-release#readme"
+}

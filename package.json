@@ -4,8 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "GITHUB_TOKEN=96938c46abaa33832fe06e38c1e52fcd8b3dee58 semantic-release"
+    "test": "node test.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",

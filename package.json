@@ -1,0 +1,49 @@
+{
+  "name": "test-semantic-release",
+  "version": "0.0.0-development",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b-dabrowski/test-semantic-release.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "barti",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/b-dabrowski/test-semantic-release/issues"
+  },
+  "homepage": "https://github.com/b-dabrowski/test-semantic-release#readme",
+  "release": {
+    "branch": "development",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "dist/asset.min.css",
+              "label": "CSS distribution"
+            },
+            {
+              "path": "dist/asset.min.js",
+              "label": "JS distribution"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/github": "^5.2.10",
+    "semantic-release": "^15.13.3"
+  }
+}

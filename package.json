@@ -26,24 +26,18 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       [
-        "@semantic-release/github",
-        {
-          "assets": [
-            {
-              "path": "dist/asset.min.css",
-              "label": "CSS distribution"
-            },
-            {
-              "path": "dist/asset.min.js",
-              "label": "JS distribution"
-            }
-          ]
-        }
+        "@semantic-release/github"
       ]
     ]
   },
   "devDependencies": {
     "@semantic-release/github": "^5.2.10",
+    "cz-conventional-changelog": "^2.1.0",
     "semantic-release": "^15.13.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

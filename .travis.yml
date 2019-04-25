@@ -6,4 +6,4 @@ jobs:
     - stage: test
       script: npm test
     - stage: semantic-release
-      script: npm semantic-release
+      script: npm run semantic-release

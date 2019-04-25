@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/b-dabrowski/test-semantic-release#readme",
   "release": {
-    "branch": "development",
+    "branch": "master",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",

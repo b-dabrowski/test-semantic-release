@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - "10"
+jobs:
+  include:
+    - stage: test
+      script: npm test
+    - stage: semantic-release
+      script: npm semantic-release

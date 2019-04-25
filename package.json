@@ -4,7 +4,7 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "semantic-release",
+    "test": "node test.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
